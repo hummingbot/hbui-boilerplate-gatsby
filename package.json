@@ -1,0 +1,30 @@
+{
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "develop-m": "gatsby develop -H 0.0.0.0 -p 8000",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@hummingbot/hbui": "^1.5.22",
+    "gatsby": "^4.24.7",
+    "gatsby-plugin-styled-components": "^6.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6",
+    "twin.macro": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "babel-plugin-twin": "^1.0.2",
+    "tailwindcss": "^3.2.2"
+  }
+}
