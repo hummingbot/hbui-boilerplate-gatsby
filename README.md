@@ -2,6 +2,8 @@
 
 This is a ready-to-use Gatsby project with full integration of the [HBUI Hummingbot Design System](https://hbui.netlify.app/)
 
+See [Demo](https://hbui-boilerplate-gatsby.netlify.app/)
+
 ### Instructions
 
 Clone the project
@@ -21,6 +23,9 @@ Start up
 ```bash
 yarn develop
 ```
+
+The project will run on http://localhost:8000/
+
 
 Alternatively, run this command to be able to open the site in the local network (eg. in your phone)
 
