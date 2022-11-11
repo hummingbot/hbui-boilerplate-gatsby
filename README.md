@@ -4,6 +4,8 @@ This is a ready-to-use Gatsby project with full integration of the [HBUI Humming
 
 See [Demo](https://hbui-boilerplate-gatsby.netlify.app/)
 
+Use this template if you need to build a standard website where SEO is important. If you are looking to build a SPA app, consider using the [Create-React-App](https://github.com/CoinAlpha/hbui-boilerplate-cra) boilerplate instead.
+
 ### Instructions
 
 Clone the project
