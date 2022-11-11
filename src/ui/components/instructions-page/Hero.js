@@ -1,44 +1,58 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
 import tw, { styled } from 'twin.macro'
-import { Section, Container , Window} from '@hummingbot/hbui/elements/layout'
+import { Section, Container, Window } from '@hummingbot/hbui/elements/layout'
 import CodeBlock from '@hummingbot/hbui/components/code/CodeBlock'
+import HeroBlock from '@hummingbot/hbui/components/hero/Hero'
 import { H1, H5, P } from '@hummingbot/hbui/elements/typography'
 import { Button } from '@hummingbot/hbui/elements/buttons'
 
 const Hero = () => (
   <Section>
-    <HeroBlock containerVariant='short' tw='bg-transparent border-b border-body'>
+    <HeroBlock containerVariant='short' tw='bg-window border-b border-body'>
       <H1 tw='leading-none'>Instructions</H1>
       <br/>
       <P>How to use this template</P>
     </HeroBlock>
     <Container variant='short'>
+      <br/>
+      <br/>
+      <br/>
       <Window>
-        <H5>Steps</H5>
+        <H5>Getting started</H5>
         <br/>
         <P isBold>Clone the project</P>
         <br/>
-        <CodeBlock code='test' />
+        <CodeBlock code={code1} />
         <br/>
+        <P isBold>Install dependencies</P>
+        <br/>
+        <CodeBlock code={code2} />
+        <br/>
+        <P isBold>Start the project</P>
+        <br/>
+        <CodeBlock code={code3} />
+        <br/>
+        <a href='https://github.com/CoinAlpha/hbui-boilerplate-gatsby' target='_blank' rel='noreferrer'>
+          <Button variant='info'>
+            Visit the Github site
+          </Button>
+        </a>
       </Window>
-      <H1>How to use</H1>
-      <br />
-      <Button variant='info'>
-        Clone this
-      </Button>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </Container>
   </Section>
 )
 
 export default Hero
 
-const HeroBlock = ({ children, containerVariant='large', ...props }) => {
-  return (
-    <Section {...props} tw='h-[300px] md:h-[350px] lg:h-[400px] xl:h-[450px] 2xl:h-[500px]'>
-      <Container variant={containerVariant} tw='flex h-full flex-col justify-center'>
-        {children}
-      </Container>
-    </Section>
-  )
-}
+const code1 = String.raw`// replace some-folder-name with your desired folder name
+git clone git@github.com:CoinAlpha/hbui-boilerplate-gatsby.git some-folder-name`
+
+const code2 = String.raw`yarn`
+
+const code3 = String.raw`yarn develop`

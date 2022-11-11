@@ -1426,10 +1426,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@hummingbot/hbui@^1.5.22":
-  version "1.5.22"
-  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.5.22.tgz#798048de7d97255c5eb201a43d484b7618657ffd"
-  integrity sha512-cq/deJmhc63aSZIpNQjLFJ1t1M4LY3Moz0aaNLDxavWhrZVhMb4uC3LbH1opr2GKM7DVO7yT0T3U13GuOH975A==
+"@hummingbot/hbui@^1.5.31":
+  version "1.5.31"
+  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.5.31.tgz#6e6f0868660cba33acb78ed70b741934ff38582f"
+  integrity sha512-S0NDVWv5AHoB0nyN9Ktz2sAhkm3MIG0uIxJ/F2NlvIntphHYJktceJcV75gRgzMuHdPMMnllzRQwT0NObkNXJw==
   dependencies:
     "@emotion/babel-plugin-jsx-pragmatic" "^0.1.5"
     "@emotion/core" "^11.0.0"
