@@ -17,7 +17,7 @@ const linkCTA = {
   label: 'CTA',
   url: '/instructions',
   external: false,
-  buttonVariant: 'terminal',
+  buttonVariant: 'success',
 }
 
 function Navigation() {
@@ -34,7 +34,6 @@ function Navigation() {
       position='relative'
       bgColor='transparent'
       containerVariant='short'
-      customLogoSVG={<CustomLogo />}
     />
   )
 }
