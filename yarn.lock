@@ -1431,10 +1431,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@hummingbot/hbui@^1.6.15":
-  version "1.6.15"
-  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.6.15.tgz#fba67dc08372e53289db4e6505ed83d36b6125f5"
-  integrity sha512-9/XJjvtgwNp8rKkDcsu3NRjaCp35j6R29Y7KZDvFrnbAo/KrdJifA21zCYJnNn5Hd+JzBrusvKV/6R8o7rj1iQ==
+"@hummingbot/hbui@^1.6.16":
+  version "1.6.16"
+  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.6.16.tgz#8ebf23bb1baa31a992618f73cff573ee25262fa0"
+  integrity sha512-bgyDM81zSVkWRLL25wnF7W2gwn/m3A7Av18k8HdNMmK7FYH3LH2TNWhuWXngXFxgnSzvvouUgvuZg1slXwX6Tg==
   dependencies:
     "@emotion/core" "^11.0.0"
     "@emotion/react" "^11.10.5"
