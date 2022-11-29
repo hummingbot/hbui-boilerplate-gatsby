@@ -1431,16 +1431,17 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@hummingbot/hbui@^1.6.17":
-  version "1.6.17"
-  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.6.17.tgz#759d546982701cc99dae928f1119e8bae5242488"
-  integrity sha512-mcW2fWpdiXGLhLpi9Kr5gEHu1jRFze5RN5ZM0C6IfULHo7RG8j/ncsDpVMEN9zMXlVzvcQtYaFxtbNxp4bxsfA==
+"@hummingbot/hbui@^1.8.4":
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.8.4.tgz#1b906157e368e111cb35464e018d378d91799b0d"
+  integrity sha512-fTwVpKV90j+nse9pFiXg6fhKei23syAYHf6bFtFPx8cHpbiTXW0hwViql3JoArw1YozcbSnFxXdcVY6h0AfXWg==
   dependencies:
     "@emotion/core" "^11.0.0"
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.1.5"
     "@headlessui/react" "^1.5.0"
     "@heroicons/react" "^1.0.6"
+    prop-types "^15.8.1"
     react-syntax-highlighter "^15.5.0"
     tailwindcss "^3.2.2"
     twin.macro "^3.0.0"
