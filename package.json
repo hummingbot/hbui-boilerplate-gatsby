@@ -13,7 +13,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@hummingbot/hbui": "^1.8.4",
+    "@hummingbot/hbui": "^1.8.20",
     "gatsby": "^4.24.7",
     "gatsby-plugin-styled-components": "^6.0.0",
     "react": "^18.0.0",
